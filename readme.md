@@ -6,7 +6,7 @@ A fully responsive web application for browsing, searching, and favoriting class
 
 ### Prerequisites
 
-- Modern web browser (Chrome, Firefox, Safari, or Edge)
+- Modern web browser
 - Text editor (VS Code recommended)
 - Live Server extension for VS Code
 
@@ -27,10 +27,6 @@ A fully responsive web application for browsing, searching, and favoriting class
    - Right-click on `index.html`
    - Select "Open with Live Server"
    - The application will open at `http://localhost:5500`
-
-4. Alternative method:
-   - Open `index.html` directly in your browser
-   - Note: A local server is recommended for optimal functionality
 
 ### First Time Usage
 
