@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Create your Old Games account" />
+  <title>Register - Old Games</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">🎮 Old Games</a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="auth-container">
+    <div class="auth-box">
+      <h1>Join Old Games</h1>
+      <p class="subtitle">Create an account to start building your collection</p>
+
+      <form id="registerForm" class="auth-form">
+        <div class="form-group">
+          <label for="name">Username</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Your username"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="your.email@stud.noroff.no"
+            pattern="^[\w\-.]+@(stud\.)?noroff\.no$"
+            title="Must be a valid Noroff email"
+            required
+          />
+          <small>Must use a @noroff.no or @stud.noroff.no email</small>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Minimum 8 characters"
+            minlength="8"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn-primary">Create Account</button>
+      </form>
+
+      <p class="auth-switch">
+        Already have an account?
+        <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </main>
+
+  <script type="module" src="js/auth.js"></script>
+</body>
+</html>

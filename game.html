@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="View detailed information about classic games" />
+  <title>Game Details - Old Games</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">🎮 Old Games</a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html" id="navProfile">Profile</a></li>
+        <li><a href="login.html" id="navLogin">Login</a></li>
+        <li><button id="navLogout" class="logout-btn" style="display:none;">Logout</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <a href="index.html" class="back-link">← Back to all games</a>
+    <div id="game" class="game-details"></div>
+    <button id="favBtn" class="btn-favorite">⭐ Add to Favorites</button>
+  </main>
+
+  <script type="module" src="js/games.js"></script>
+</body>
+</html>
